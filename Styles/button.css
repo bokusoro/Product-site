@@ -1,0 +1,77 @@
+.primary__header {
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: #D2E1FF;
+  border: none;
+  text-decoration: none;
+  color: #3A79FF;
+  font-family: 'QuickSand-Bold', sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.primary__header:hover {
+  background-color: #4c82f8;
+  color: white;
+  transition: 0.4s;
+}
+
+/*Primary main*/
+
+.primary__main {
+  background-color: #4C85FF;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  border: none;
+  text-decoration: none;
+  font-family: 'QuickSand-Bold', sans-serif;
+  font-size: 13px;
+  cursor: pointer;
+  border-radius: 2px;
+  width: 130px;
+  color: white;
+}
+
+
+.primary__main svg {
+  margin-left: 6px;
+}
+
+.primary__main:hover {
+  background-color: #00329d;
+  transition: 0.3s;
+}
+
+/*Secondary main*/
+.secondary__main {
+  background-color: #f4f7ff;
+  border-radius: 2px;
+  border: 1px solid #D1D1E4;
+  width: 130px;
+  font-family: 'QuickSand-Bold', sans-serif;
+  font-size: 13px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  color: #D1D1E4;
+}
+
+.secondary__main:hover {
+  background-color: #adb4d2;
+  color: white;
+  transition: 0.3s;
+}
+
+/*ABout*/
+.secondary__about {
+  background-color: #FFD7D7;
+  color: #D43F3F;
+}
+
+.secondary__about:hover {
+  background-color: #d43f3f;
+  color: white;
+}
